@@ -41,6 +41,9 @@ header{
     border-radius: 40px;
 }
 
+
+
+
 .menu{
     flex: 1;
     display: flex;
@@ -48,9 +51,10 @@ header{
    
 }
 
-.menu-opener{
+ .menu-opener{
     display: none;
 }
+
 
 
 .menu ul,
@@ -62,6 +66,8 @@ header{
 .menu ul {
     display: flex;
 }
+
+
 
 .menu li a{
     color: #ffffff;
@@ -1029,7 +1035,9 @@ padding-bottom: 30px;
         margin-right: 50px;
     }
 
-    nav {
+    /* nav ul e chamado no index pelo js para fazer aparecer o menu mobile */
+
+    nav ul {
         
         display: none;
         position: absolute;
@@ -1245,6 +1253,12 @@ padding-bottom: 30px;
     .footer-secction--row{
         justify-content: space-between;
     }
+
+   
+
+
+
+
 /*
     .footer-section--formulario {
         background-color: #333;
