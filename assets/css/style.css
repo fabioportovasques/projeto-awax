@@ -1037,7 +1037,7 @@ padding-bottom: 30px;
 
     /* nav ul e chamado no index pelo js para fazer aparecer o menu mobile */
 
-    nav ul {
+    .menu nav ul {
         
         display: none;
         position: absolute;
